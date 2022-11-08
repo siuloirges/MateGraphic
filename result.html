@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./utils/css/result.css">
+</head>
+<body>
+    
+    <div class="principal">
+
+        <div class="head">
+            <img src="./Assets/logo150.png" style="object-fit: cover;" >
+            <div class="def">
+                <h2>
+                    Optimización
+                </h2>
+                <p>Resuelve y grafica</p>
+            </div>
+            
+        </div>
+        <div class="resolver">
+            <div class="select">
+                <select name="Type" id="">
+                    <option value="1">2D</option>
+                    <option value="1">3D</option>
+                </select>
+            </div>
+            <input type="text" name="eval" id="eval" placeholder="x^2 + 3y">
+
+            <div class="icon" onclick="sendEval()">
+                <ion-icon name="paper-plane-outline" onclick=""></ion-icon>
+            </div>
+        </div>
+        <!-- <div class="box" style="width: 150px; height: 150px;">
+
+        </div> -->
+
+    </div>
+
+    <h5 id="resp" style="padding-top: 20px;"></h5>
+    <div class="result" style="padding-top: 0;">
+        <img style='display:block; width:40px;height:40px;margin: 180px;' id='base64image' src='https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif' />
+    </div>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./utils/js/index.js"></script>
+
+</body>
+</html>

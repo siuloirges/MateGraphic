@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Fredoka+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+
+    color: rgb(255,58,88);
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.principal .resolver{
+    margin: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+
+
+    transition: 1s;    
+    border-radius: 20px 20px 20px 20px;
+    /* background-color: red; */
+    /* border-radius: 100px; */
+    background:rgb(255,58,88,.1);
+
+}
+
+.principal .resolver:hover{
+
+    /* border-bottom: solid rgb(255,58,88) 3px; */
+    transition: 0.5s;    
+
+}
+.principal .resolver .select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 30px;
+    /* background-color: red; */
+
+}
+
+    .principal .resolver .select select{
+        border: 0;
+        outline: none;
+        padding: 10px;
+        background: transparent;
+
+        /* background-color: red; */
+
+    }
+        .principal .resolver .select select option{
+            /* background-color: red; */
+        }
+
+        .principal .resolver .select select option:active{
+            /* background-color: red; */
+        }
+
+.principal .resolver #eval{
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* background-color: blue; */
+    min-width: 400px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    border-radius: 100px;
+    padding-left: 15px;
+
+}
+
+.principal .resolver .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 30px;
+    /* background-color: red; */
+}
+
+    .principal .resolver .icon ion-icon {
+        transform: scale(1.2);
+        cursor: pointer;
+        transition: 0.2s;
+        padding: 5px;
+
+    }
+
+    .principal .resolver .icon ion-icon:hover {
+        background-color: white;
+        border-radius: 100px;
+        transition: 0.2s;
+    }
+
+    
+.principal .head{
+    /* background-color: red; */
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .head .def{
+    border-left: solid 3px rgb(255,58,88);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.result{
+    /* background-color: red; */
+    padding: 20px;
+}
